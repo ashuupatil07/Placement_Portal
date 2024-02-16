@@ -1,0 +1,28 @@
+.container{
+    height: 100px;
+    max-width: 190rem;
+    padding: 4.2rem 2.4rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 3.2rem;
+
+}
+header{
+    background-color: #e8716d;
+    font-size: 2rem;
+}
+.linkWithoutUnderline {
+    text-decoration: none;
+    color: aliceblue;
+  }
+.linkWithoutUnderline:hover{
+    text-decoration: 1.5px solid  rgba(34, 34, 34, 0.85);
+    text-decoration: underline 1.5px solid  rgba(34, 34, 34, 0.85);
+}
+.logo-brand{
+   height: 60px;
+}
